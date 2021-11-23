@@ -1,0 +1,8 @@
+$buttonColor : red;
+
+@mixin button ($parametr) {
+    border-radius: 10px;
+    border: 1px solid red;
+    background: transparent;
+    color: $parametr;
+}

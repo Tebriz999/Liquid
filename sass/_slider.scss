@@ -1,0 +1,56 @@
+.carousel-caption{
+    position: absolute;
+    padding-top: _0.75rem;
+    padding-bottom: 5.25rem;
+    text-align: center;
+    color: #fff;
+    font-size: 30px
+        
+}
+h1{
+    font-size: 58px;
+    min-height: 120px;
+}
+
+.sld1{
+    display: flex;
+    align-items: center;
+    .sld1-inside{
+        h1{
+            text-align: start;
+        }
+        p{
+            text-align: start;
+        }
+        .butn1{
+             box-shadow: inset 0 0 0 2px #fc5b3f;
+             color: #fff;
+             background-color: transparent;
+             border: none;
+             border-radius: 6px;
+             font-size: 25px;
+        }
+    }
+}
+
+.sld2{
+    display: flex;
+    align-items: center;
+    .sld2-inside{
+        h1{
+            text-align: start;
+        }
+        p{
+            text-align: start;
+        }
+        .butn2{
+            box-shadow: inset 0 0 0 2px #fc5b3f;
+             color: #fff;
+             background-color: transparent;
+             border: none;
+             border-radius: 6px;
+             font-size: 25px;
+
+        }
+    }
+}
